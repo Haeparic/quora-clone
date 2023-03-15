@@ -1,0 +1,158 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px;
+  background: #fff;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.5);
+}
+.qHeader-icons {
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+  align-items: center;
+}
+.qHeader-icon > .MuiSvgIcon-root {
+  color: yellowgreen;
+  font-size: xx-large;
+  cursor: pointer;
+  padding: 3px;
+}
+.qHeader-icon > .MuiSvgIcon-root:hover {
+  color: #000;
+  border-radius: 10px;
+  background: yellowgreen;
+  transform: scale(1.1);
+}
+.qHeader-input {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 100%;
+  border: 1px solid lightgreen;
+  padding: 5px;
+  border-radius: 5px;
+}
+.qHeader-input > input {
+  background: transparent;
+  outline: none;
+  width: 400px;
+  border: none;
+  color: rgb(49, 49, 49);
+}
+.qHeader-input > .MuiSvgIcon-root {
+  color: yellowgreen;
+}
+.qHeader-Rem {
+  display: flex;
+  align-items: center;
+}
+.qHeader-Rem > .MuiSvgIcon-root {
+  font-size: xx-large;
+  color: yellowgreen;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.qHeader-Rem > .MuiSvgIcon-root:hover {
+  color: #000;
+}
+.modal-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  border-bottom: 1px solid lightgray;
+}
+
+.modal-title > h5 {
+  color: yellowgreen;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+.modal-title > h5:hover {
+  color: lightgoldenrodyellow;
+}
+
+.modal-info {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.modal-info > p {
+  margin-left: 10px;
+  font-size: small;
+  color: gray;
+}
+
+.modal-info > .modal-scope {
+  display: flex;
+  align-items: center;
+  color: yellowgreen;
+  padding: 5px;
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 33px;
+  cursor: pointer;
+}
+
+.modal-Field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  flex: 1;
+}
+
+.modal-Field > .modal-fieldLink {
+  color: yellowgreen;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.modal-txt {
+  flex: 1;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+}
+
+.modal-buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 260px;
+  margin-right: -20px;
+  border-top: 1px solid lightgray;
+}
+
+.modal-buttons > .can {
+  margin-left: auto;
+  border: none;
+  margin-top: 5px;
+  outline: none;
+  color: yellowgreen;
+  font-weight: 500;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 33px;
+  cursor: pointer;
+}
+
+.modal-buttons > .add {
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  background-color: yellowgreen;
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 33px;
+  cursor: pointer;
+}
